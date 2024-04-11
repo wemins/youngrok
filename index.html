@@ -16,6 +16,8 @@
      
     <link rel="apple-touch-icon" href="./mobile_icon.ico" />
     <link rel="shortcut icon" href="./mobile_icon.ico" />
+    <link rel="stylesheet" href="http://www.junglesystem.com/theme/junglesystem_2017/css/default.css?ver=161120">
+    <link rel="stylesheet" href="/font_SJSejongGothic.css">
     <link rel="stylesheet" href="main.css">
     
     <title>주민등록증 모바일 확인서비스</title>
@@ -115,7 +117,7 @@
   		for (let i = 0; i < 54; i++) {
       			result += characters.charAt(Math.floor(Math.random() * charactersLength));
   		}
-		document.querySelector('#QR_img').src = `chart.png`
+		document.querySelector('#QR_img').src = `https://chart.apis.google.com/chart?cht=qr&chs=300x300&chl=${result}`
                 count = 30
             }
             count -= 1
