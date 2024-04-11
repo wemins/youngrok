@@ -1,3 +1,8 @@
+@import url(http://fonts.googleapis.com/earlyaccess/nanumgothic.css);
+.nanumgothic * {
+ font-family: 'Nanum Gothic', sans-serif;
+}
+
 html, body {
     /* Prevent font scaling in landscape */
 
@@ -12,7 +17,7 @@ html, body {
     height: 100%;
     width: 100%;
     background-color: #e4ebf3;
-    font-family: 'SJ처음고딕R_R';
+    font-family: 'Nanum Gothic';
 }
 
 .header {
